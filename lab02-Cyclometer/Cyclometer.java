@@ -17,8 +17,8 @@ public class Cyclometer {
         double wheelDiameter=27.0,  // measurment of wheel diameter
   	     PI=3.14159, // approximation of pi
     	 feetPerMile=5280,  // number of feet in a mile
-    	 inchesPerFoot=12,   // inches to feet conversion
-    	 secondsPerMinute=60;  // # of seconds in a minute
+    	 inchesPerFoot=12,   // # of inches in a foot conversion
+    	 secondsPerMinute=60;  // # of seconds in a minute conversion
     	double distanceTrip1, distanceTrip2,totalDistance;  //recording doubles 
     	// for the first two distances and their total sum
     
