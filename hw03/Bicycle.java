@@ -38,17 +38,17 @@ import java.util.Scanner; //import scanner class
     	 // record average speed in mph
     	 
     	 //convert the results to display reasonable numbers by converting to integers:
-            totalDistance= 100*totalDistance;
-            timeInMinutes=100*timeInMinutes;
-            averageSpeed=100*averageSpeed;
+            totalDistance= 100*totalDistance; //multiply by 100
+            timeInMinutes=100*timeInMinutes; //multiply by 100
+            averageSpeed=100*averageSpeed;// multiply by 100
           	 
-            totalDistance= (int)totalDistance;
-          	 timeInMinutes=(int)timeInMinutes;
-          	 averageSpeed=(int)averageSpeed;
+            totalDistance= (int)totalDistance; // convert to integer
+          	 timeInMinutes=(int)timeInMinutes;//convert to integer
+          	 averageSpeed=(int)averageSpeed; //convert to integer
           	 
-          	 totalDistance= totalDistance/100.0;
-          	 timeInMinutes=timeInMinutes/100.0;
-          	 averageSpeed=averageSpeed/100.0;
+          	 totalDistance= totalDistance/100.0; // divide by 100.0
+          	 timeInMinutes=timeInMinutes/100.0;//divide by 100.0
+          	 averageSpeed=averageSpeed/100.0; //divide by 100.0
     	 
     	 System.out.println("The total distance convered was "+ totalDistance + " miles");
     	 // print out total distance
