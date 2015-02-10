@@ -15,7 +15,7 @@ import java.lang.Math; // import math utilities
         Scanner myScanner; //declare scanner
         myScanner= new Scanner (System.in); // setup variable input
         System.out.print("Enter any number :");
-         // prompt the time in seconds as an integer value ^
+         // prompt the number of which to take the cubed root ^
         double givenCube= myScanner.nextDouble(); //accept user input
         double cubedRoot=Math.pow(givenCube,.33333333); //take the cubed root of 
         //the given number
