@@ -17,10 +17,10 @@ import java.lang.Math; // import math utilities
         System.out.print("Enter any number :");
          // prompt the number of which to take the cubed root ^
         double givenCube= myScanner.nextDouble(); //accept user input
-        double cubedRoot=Math.pow(givenCube,.33333333); //take the cubed root of 
-        //the given number
+        double cubedRoot=Math.pow(givenCube,.333333333 ); //take the cubed 
+        //root of the given number using an approximation of the cubed root
         double cubedResult=Math.pow(cubedRoot,3); //cube the result
-        System.out.println("The cubed root is: " + cubedRoot + ":"); 
+        System.out.println("The cubed root is approximately: " + cubedRoot + ":"); 
         //print out root ^
         System.out.println(cubedRoot+" * "+cubedRoot+" * "+cubedRoot+" = " + cubedResult);
         //take the given cubed root and multiply out to show the approximated result
